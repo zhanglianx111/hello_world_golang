@@ -10,5 +10,6 @@ func main() {
 	r.HandleFunc("/", handle.HandlerDefault)
 	r.HandleFunc("/hi", handle.HandlerHi)
 	r.HandleFunc("/name", handle.HandlerName)
+	r.HandleFunc("/age", handle.HandlerAge)
 	http.ListenAndServe(":8000", r)
 }
