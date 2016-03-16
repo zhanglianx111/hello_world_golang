@@ -8,13 +8,13 @@ func HandlerDefault(w http.ResponseWriter, r *http.Request) {
 }
 
 func HandlerHi(w http.ResponseWriter, r *http.Request) {
-	fmt.Println("HandleHi")
+	fmt.Println("HandlerHi")
 }
 
 func HandlerName(w http.ResponseWriter, r *http.Request) {
-	fmt.Println("HandleName")
+	fmt.Println("HandlerName")
 }
 
 func HandlerAge(w http.ResponseWriter, r *http.Request) {
-	fmt.Println("HandleAge")
+	fmt.Println("HandlerAge")
 }
