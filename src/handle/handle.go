@@ -6,3 +6,11 @@ import (
 func HandlerDefault(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("HandleDefault")
 }
+
+func HandleHi(w http.ResponseWriter, r *http.Request) {
+	fmt.Println("HandleHi")
+}
+
+func HandleName(w http.ResponseWriter, r *http.Request) {
+	fmt.Println("HandleName")
+}
