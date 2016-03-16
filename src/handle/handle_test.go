@@ -18,3 +18,8 @@ func Test_HandleName(t *testing.T) {
 func Test_HandleAge(t *testing.T) {
 	fmt.Println("Test_HandleAge")
 }
+
+func Test_HandleSex(t *testing.T) {
+	fmt.Println("Test_HandleSex")
+}
+
