@@ -14,3 +14,7 @@ func Test_HandleHi(t *testing.T) {
 func Test_HandleName(t *testing.T) {
 	fmt.Println("Test_HandleName")
 }
+
+func Test_HandleAge(t *testing.T) {
+	fmt.Println("Test_HandleAge")
+}

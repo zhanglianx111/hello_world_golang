@@ -14,3 +14,7 @@ func HandleHi(w http.ResponseWriter, r *http.Request) {
 func HandleName(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("HandleName")
 }
+
+func HandleAge(w http.ResponseWriter, r *http.Request) {
+	fmt.Println("HandleAge")
+}
