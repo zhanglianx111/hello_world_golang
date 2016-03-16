@@ -7,14 +7,14 @@ func HandlerDefault(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("HandleDefault")
 }
 
-func HandleHi(w http.ResponseWriter, r *http.Request) {
+func HandlerHi(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("HandleHi")
 }
 
-func HandleName(w http.ResponseWriter, r *http.Request) {
+func HandlerName(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("HandleName")
 }
 
-func HandleAge(w http.ResponseWriter, r *http.Request) {
+func HandlerAge(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("HandleAge")
 }
