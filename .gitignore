@@ -1,3 +1,4 @@
 *.test
 pkg
 hello_world_golang
+src/github.com
