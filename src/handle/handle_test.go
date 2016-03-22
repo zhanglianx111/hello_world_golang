@@ -2,7 +2,7 @@ package handle
 import (
 	"fmt"
 	"testing"
-	"github.com/stretchr/testify/assert"
+	"github.com/bmizerany/assert"
 )
 func Test_HandleDefault(t *testing.T) {
 	fmt.Println("Test_HandleDefault")
