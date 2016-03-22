@@ -2,6 +2,7 @@ package handle
 import (
 	"fmt"
 	"testing"
+	"github.com/stretchr/testify/assert"
 )
 func Test_HandleDefault(t *testing.T) {
 	fmt.Println("Test_HandleDefault")
@@ -21,5 +22,6 @@ func Test_HandleAge(t *testing.T) {
 
 func Test_HandleSex(t *testing.T) {
 	fmt.Println("Test_HandleSex")
+	assert.Equal(t, "1", "2")
 }
 
